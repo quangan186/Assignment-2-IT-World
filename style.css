@@ -1,12 +1,25 @@
+@font-face {
+  src: url(fonts/Modeseven-L3n5.ttf);
+  font-family: 'modeseven';
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  font-family: modeseven;
+}
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar{
   text-align: center;
-  background-color: #66CCFF;
+  background-color: #010402;
+  font-family: modeseven;
 }
 
 .navbar ul{
@@ -15,7 +28,7 @@
 }
 
 .navbar ul li {
-    width: 130px;
+    width: 150px;
     margin: 15px;
     padding: 15px ;
 }
@@ -37,7 +50,7 @@
   display: block;
   position: absolute;
   margin: 15px 0 0 0px;
-  background-color:  #66CCFF;
+  background-color:  #053742;
 }
 
 .navbar ul li:hover .items ul{
@@ -56,4 +69,138 @@
 
 .navbar ul li:hover .items ul li:last-child{
   border-bottom:none;
+}
+
+/* section */
+#home{
+  height: 500px;
+  background-color: #4BC3B5;
+  display: inline-block;
+  width: 100%;
+}
+
+#about{
+  height: 500px;
+  background-color: #1C2C54;
+  display: inline-block;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.3fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+#team_profile{
+  height: 500px;
+  background-color: #E8F0F2;
+  display: inline-block;
+  width: 100%;
+}
+
+#tools{
+  height: 500px;
+  background-color: #D175B7;
+  display: inline-block;
+  width: 100%;
+}
+
+#project_idea{
+  height: 500px;
+  background-color: #39A2DB;
+  display: inline-block;
+  width: 100%;
+}
+
+#feedback{
+  height: 500px;
+  background-color: #A2DBFA;
+  display: inline-block;
+  width: 100%;
+}
+
+#technology{
+  height: 500px;
+  background-color: #E8F0F2;
+  display: inline-block;
+  width: 100%;
+}
+
+#work{
+  height: 500px;
+  background-color: #053742;
+  display: inline-block;
+  width: 100%;
+}
+
+#home h1{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  font-family: modeseven;
+}
+
+#home h2{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-family: modeseven;
+}
+
+#about h1{
+  grid-area: 1/1/ span 1/ span 2;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25px;
+  color: white;
+}
+
+#about.info{
+  grid-area: 2/1/ span 1/ span 1;
+}
+
+/* #about.info ul{
+  margin-top: 30px;
+} */
+
+.info ul{
+  text-align: left;
+  font-size: 30px;
+  margin: 50px;
+}
+
+.info ul li{
+  line-height: 50px;
+  color: white;
+}
+
+#team_profile{
+  text-align: center;
+}
+
+#team_profile h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.show_btn button{
+  background-color: #0061A8;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: modeseven;
+  font-size: 30px;
+}
+
+.show_btn a {
+    color: white;
+    text-decoration: none;
+}
+.title{
+  font-family: modeseven;
 }
