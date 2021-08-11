@@ -159,10 +159,6 @@ html{
   grid-area: 2/1/ span 1/ span 1;
 }
 
-/* #about.info ul{
-  margin-top: 30px;
-} */
-
 .info ul{
   text-align: left;
   font-size: 30px;
@@ -172,16 +168,6 @@ html{
 .info ul li{
   line-height: 50px;
   color: white;
-}
-
-#team_profile{
-  text-align: center;
-}
-
-#team_profile h1{
-  font-size: 50px;
-  margin-top: 25px;
-  margin-bottom: 50px;
 }
 
 .show_btn button{
@@ -201,6 +187,95 @@ html{
     color: white;
     text-decoration: none;
 }
+
 .title{
   font-family: modeseven;
+}
+
+/* team profile */
+#team_profile{
+  text-align: center;
+}
+
+#team_profile h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* tools */
+#tools{
+  text-align: center;
+}
+
+#tools h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* project idea */
+#project_idea{
+  text-align: center;
+}
+
+#project_idea h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* feedback */
+#feedback{
+  text-align: center;
+}
+
+#feedback h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* IT technology */
+#technology{
+  text-align: center;
+}
+
+#technology h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+/* IT work */
+#work{
+  text-align: center;
+}
+
+#work h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+/* scroll up button */
+#btn_scrollUp{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0 0 10px black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+i{
+  margin-left: 12px;
+  margin-top: 12px;
 }
