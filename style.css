@@ -38,9 +38,9 @@ html{
   color: white;
 }
 
-.active, .navbar ul li a:hover {
+/* .active, .navbar ul li a:hover {
   color: blue;
-}
+} */
 
 .items{
   display: none;
@@ -77,6 +77,9 @@ html{
   background-color: #4BC3B5;
   display: inline-block;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #about{
@@ -137,14 +140,15 @@ html{
   margin-top: 100px;
   letter-spacing: 2px;
   font-family: modeseven;
+  grid-area: 1/1/span 1/ span 2;
 }
 
 #home h2{
   text-align: center;
   font-size: 100px;
-  margin-top: 50px;
   letter-spacing: 2px;
   font-family: modeseven;
+  grid-area: 2/1/span 1/ span 2;
 }
 
 #about h1{
@@ -181,11 +185,13 @@ html{
   cursor: pointer;
   font-family: modeseven;
   font-size: 30px;
+  color: white;
+  text-decoration: none;
+
 }
 
-.show_btn a {
-    color: white;
-    text-decoration: none;
+.show_btn button:active{
+  background-color: #9C9C9C;
 }
 
 .title{
@@ -278,4 +284,43 @@ html{
 i{
   margin-left: 12px;
   margin-top: 12px;
+}
+
+#home img{
+  width: 150px;
+  height: 150px;
+  background-image: none;
+}
+
+.text{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.moreText{
+  display: none;
+}
+
+.content.show-more .moreText{
+  display: inline;
+}
+
+#img1{
+  grid-area: 1/1/span 1/ span 1;
+}
+
+#img2{
+  grid-area: 1/2/span 1/ span 1;
+  margin-left: 800px;
+}
+
+#img3{
+  grid-area: 2/1/span 1/ span 1;
+  margin-top: 100px;
+}
+
+#img4{
+  grid-area: 2/2/span 1/ span 1;
+  margin-left: 800px;
+  margin-top: 100px;
 }
