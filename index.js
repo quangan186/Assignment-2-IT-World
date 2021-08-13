@@ -7,14 +7,26 @@ scroll_up.addEventListener("click", function(){
   });
 });
 
-const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.content');
+const readMoreBtns = document.querySelectorAll(".read-more-btn");
+const texts = document.querySelectorAll(".content");
 
-readMoreBtn.addEventListener("click", (e)=>{
-  text.classList.toggle('show-more');
-  if (readMoreBtn.innerText === 'Read More') {
-    readMoreBtn.innerText = 'Read Less';
-  } else {
-    readMoreBtn.innerText = 'Read More';
+readMoreBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    texts[index].classList.toggle("show-more");
+
+    if (btn.innerText === "Read More") {
+      btn.innerText = "Read Less";
+    } else {
+      btn.innerText = "Read More";
+    }
+  });
+});
+
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 3){
+    counter = 1;
   }
-})
+}, 5000);
