@@ -51,36 +51,40 @@
         </ul>
       </div>
 
-      <div class="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1">
-          <input type="radio" name="radio-btn" id="radio2">
-          <input type="radio" name="radio-btn" id="radio3">
-          <div class="slide first">
-            <img src="images/IMG_9596.jpg" alt="">
-          </div>
+      <div class="slideshow-container">
 
-          <div class="slide">
-            <img src="images/IMG_1444.jpg" alt="">
-          </div>
+  <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/IMG_9596.jpg" style="width: 100%; height: 40vh">
 
-          <div class="slide">
-            <img src="images/IMG_1438.jpg" alt="">
-          </div>
-
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-          </div>
-
-          <div class="navigation-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-          </div>
-        </div>
       </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/IMG_1444.jpg" style="width: 100%; height: 40vh">
+
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/IMG_1438.jpg" style="width: 100%; height: 40vh">
+
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
     </div>
 
     <div id="team_profile">
@@ -91,16 +95,46 @@
 
       <div class="content">
           <span class="moreText">
-            <div id="quang_an">
+            <div id="mem">
               <h1> Bui Quang An </h1>
-              <div class="an_img">
-                <img src="images/IMG_9829 (1).jpg" alt="" class="an_img1">
-                <img src="images/an_result.PNG" alt="" class="an_img2">
+              <div class="mem_img">
+                <img src="images/IMG_9829 (1).jpg" alt="" class="mem_img1">
+                <img src="images/an_result.PNG" alt="" class="mem_img2">
               </div>
-              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+              <p class="text">According to my Myers- Briggs test result, my advantage is that I am an extraverted, observant and assertive person. The extravert helps me be trustworthy in other eyes and easy to find support from others when I have difficulty. On the other hand, observation helps me learn and gain more knowledge and life’s experiences so that I can be more assertive when I make any decisions. These strengths help me connect members in my team, make logical decisions, and support members while we are doing projects. However, I need to find 3 members whose strengths are writing reports, collecting and checking report’s mistakes, and designing not only the report but also the slides for the presentation. Luckily, even though it is quite difficult to find teammates this semester because of Covid pandemic, I have found and invited enough teammates whose strengths are similar to what I need after 6 weeks. They are Duong My Uyen, Pham Phuc Binh and Nguyen Phuoc Thanh.
+
               </p>
             </div>
 
+            <div id="mem">
+              <h1> Pham Phuc Binh </h1>
+              <div class="mem_img">
+                <img src="images/binh.jpg" alt="" class="mem_img1">
+                <img src="images/binh_result.PNG" alt="" class="mem_img2">
+              </div>
+              <p class="text">Binh is the oldest member in my team in the User-centred Design (UCD) course last semester and his strength is writing reports, which has been witnessed in his final exam , with 88 points, and he is willing to help other members when they have difficulty in writing reports.
+              </p>
+            </div>
+
+            <div id="mem">
+              <h1> Nguyen Phuoc Thanh </h1>
+              <div class="mem_img">
+                <img src="images/thanh.jpg" alt="" class="mem_img1">
+                <img src="images/thanh_result.png" alt="" class="mem_img2">
+              </div>
+              <p class="text">Thanh is an introverted boy in my group, but from my friends’ feedback working with him last semester, he has a creative mind and high aesthetic, which is necessary for designing the report.
+              </p>
+            </div>
+
+            <div id="mem">
+              <h1> Duong My Uyen </h1>
+              <div class="mem_img">
+                <img src="images/uyen.jpg" alt="" class="mem_img1">
+                <img src="images/uyen_result.PNG" alt="" class="mem_img2">
+              </div>
+              <p class="text">Last but not least, Uyen is the only girl in my group and she is a polite and enthusiastic person. However, Uyen's Myers- Briggs test result demonstrates that her personality is almost opposite of mine. For instance, Uyen’s result shows that she is an introverted person , and she uses her feelings to make decisions, with 62 percent of introverts  and 64 percent of feelings, while I am an extravert and use thinking to make decisions, about 70 percent of extravert and 52 percent of thinking. In my opinion, it is very interesting to me because it helps me consider carefully before making any decisions for the group. Also, with the advantages that she used to study overseas a long time ago, I believe letting her synthesize our work in the report and check mistakes such as content or grammar is suitable.
+              </p>
+            </div>
           </span>
       </div>
 
