@@ -298,6 +298,7 @@ i{
   margin-left: 150px;
   text-align: left;
   width: 80%;
+  line-height: 2;
 }
 
 .moreText{
@@ -338,13 +339,13 @@ i{
   justify-content: space-around;
 }
 .mem_img1{
-  width: 30%;
+  width: 400px;
   height: 500px;
   margin-bottom: 30px;
 }
 
 .mem_img2{
-  width: 30%;
+  width:400px;
   height: 500px;
   margin-bottom: 30px;
 }
