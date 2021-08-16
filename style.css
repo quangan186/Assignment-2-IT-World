@@ -181,7 +181,7 @@ html{
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 30px 2px;
   cursor: pointer;
   font-family: modeseven;
   font-size: 30px;
@@ -418,10 +418,10 @@ display: inline-block;
 transition: background-color 0.6s ease;
 }
 
-.active,
+/* .active,
 .dot:hover {
 background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
@@ -472,3 +472,31 @@ to {
 #content{
   margin-left: 100px;
 }
+
+.game{
+  display: flex;
+  justify-content: space-around;
+}
+
+.game h2{
+  font-size: 50px;
+}
+
+.intro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.intro p{
+  font-size: 24px;
+}
+ #require{
+   font-size: 36px;
+   text-decoration: underline;
+   text-align: left;
+   margin-left: 150px;
+   margin-bottom: 50px;
+ }
+
+ #description{
+   line-height: 2;
+ }
