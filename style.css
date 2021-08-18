@@ -94,7 +94,7 @@ html{
 
 #team_profile{
   height: auto;
-  background-color: #E8F0F2;
+  background-color: #ADD8E6;
   display: inline-block;
   width: 100%;
 }
@@ -181,7 +181,9 @@ html{
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  margin: 30px 2px;
+  margin-bottom: 80px;
+  margin-left: 2px;
+  margin-right: 2px;
   cursor: pointer;
   font-family: modeseven;
   font-size: 30px;
@@ -488,6 +490,10 @@ to {
 }
 .intro p{
   font-size: 24px;
+  line-height: 2;
+  width: 80%;
+  margin-left: 150px;
+  text-align: left;
 }
  #require{
    font-size: 36px;
@@ -500,3 +506,140 @@ to {
  #description{
    line-height: 2;
  }
+
+#people_feedback{
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 100px
+}
+
+#people_feedback img{
+  width: 300px;
+  height: 300px;
+  margin-left: 40px;
+}
+
+#people_text{
+  margin: 0;
+  width: auto;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.feedback h2{
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.discussion h2{
+  margin-top: 50px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.discussion p{
+  text-align: left;
+  font-size: 24px;
+  line-height: 2;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+#h_text{
+  margin: 0;
+  width: auto;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.website{
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.visit-btn{
+  background-color: #0061A8;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: modeseven;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+
+}
+
+.visit-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.visit-btn:active, a:active{
+  opacity: 0.8;
+}
+.website h2{
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+.reflect h2{
+  text-align: left;
+  margin-left: 150px;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.tool_img{
+  width: 60%;
+  height: 60vh;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.team_image{
+  width: 80%;
+  height: 50vh;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  background-color: #E8F0F2;
+}
+
+.team_image{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+.i{
+  width: 200px;
+  height: 200px;
+}
+
+.img_intro h2{
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.img_intro{
+  margin-top: 30px;
+}
+
+#reference{
+  text-align: center;
+  height: auto;
+  background-color: #ADD8E6;
+  display: inline-block;
+  width: 100%;
+}
+
+#reference h1{
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: black;
+}
