@@ -28,8 +28,8 @@ html{
 }
 
 .navbar ul li {
-    width: 150px;
-    margin: 15px;
+    width: auto;
+    margin: 15px 25px;
     padding: 15px ;
 }
 
@@ -284,7 +284,6 @@ html{
 }
 
 i{
-  margin-left: 12px;
   margin-top: 12px;
 }
 
@@ -478,10 +477,12 @@ to {
 .game{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .game h2{
   font-size: 50px;
+  margin-top: 250px;
 }
 
 .intro{
@@ -642,4 +643,18 @@ to {
   margin-top: 25px;
   margin-bottom: 50px;
   color: black;
+}
+
+.game img{
+  width: 800px;
+  height: 500px;
+}
+
+#note{
+  text-align: center;
+}
+
+.note{
+  font-size: 24px;
+  margin: 30px;
 }
