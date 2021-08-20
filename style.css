@@ -481,8 +481,8 @@ to {
 }
 
 .game h2{
-  font-size: 50px;
-  margin-top: 250px;
+  font-size: 100px;
+  margin-top: 200px;
 }
 
 .intro{
@@ -657,4 +657,59 @@ to {
 .note{
   font-size: 24px;
   margin: 30px;
+}
+
+.prof{
+  display: flex;
+  width: 80%;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  background: #008B8B;
+}
+
+.prof img{
+  width: 300px;
+  height: 300px;
+  margin: 30px 40px;
+}
+
+.prof_info{
+  margin-left: 100px;
+  text-align: left;
+}
+
+.prof_info ul li{
+  margin: 30px 10px;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+}
+
+.link{
+  background-color: #008B8B;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 80px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+  font-family: modeseven;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.link:active{
+  opacity: 0.7;
+}
+
+.link a{
+  color: white;
+  text-decoration: none;
+}
+#detail{
+  color: white;
 }
